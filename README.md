@@ -5,9 +5,9 @@ BMMV（Basketball Manager Mobile Vibe）的官方 Android 安装包发布仓库�
 ## 下载
 
 - [全部版本与下载](https://github.com/as7er/bmmv-releases/releases)
-- [当前测试版：1.0.0（构建号 2）](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.2)
-- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.2/BMMV-1.0.0-2.apk)
-- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.2/SHA256SUMS.txt)
+- [当前测试版：1.0.0（构建号 3，修复观赛自动锁屏）](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.3)
+- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.3/BMMV-1.0.0-3.apk)
+- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.3/SHA256SUMS.txt)
 
 无需 GitHub 账号即可下载。Release 附件不依赖 Expo 临时构建链接；只要仓库及附件保留，版本下载地址可继续使用。GitHub 服务可用性和本地网络情况可能影响访问。
 
@@ -23,6 +23,8 @@ BMMV（Basketball Manager Mobile Vibe）的官方 Android 安装包发布仓库�
 ## 当前状态
 
 当前版本为预发布测试版。包含球队管理、自动排阵、赛季推进、2D 比赛直播、临场换人和战术、比赛进度保存恢复。
+
+构建号3修复观赛自动息屏：前台播放期间保持亮屏，暂停、打开执教/数据面板、切后台及离开后恢复系统休眠规则。不改变存档格式；可直接覆盖安装构建号2，不要先卸载。手机实际常亮效果待复验：系统设为30秒息屏，播放超过60秒不触屏，再暂停检查正常息屏。
 
 云端编译与下载完整性检查已通过；独立 APK 的真机冷启动、后台/强退恢复和长时间运行仍待验收。请不要将测试版作为重要存档的唯一副本。
 
