@@ -5,9 +5,9 @@ BMMV（Basketball Manager Mobile Vibe）的官方 Android 安装包发布仓库�
 ## 下载
 
 - [全部版本与下载](https://github.com/as7er/bmmv-releases/releases)
-- [当前测试版：BMMV Android v1.0.0 build12 universal](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.12)
-- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.12/BMMV-Android-v1.0.0-build12-universal.apk)
-- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.12/SHA256SUMS.txt)
+- [当前测试版：BMMV Android v1.0.0 build13 universal](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.13)
+- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.13/BMMV-Android-v1.0.0-build13-universal.apk)
+- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.13/SHA256SUMS.txt)
 
 无需 GitHub 账号即可下载。Release 附件不依赖 Expo 临时构建链接；只要仓库及附件保留，版本下载地址可继续使用。GitHub 服务可用性和本地网络情况可能影响访问。
 
@@ -26,7 +26,7 @@ APK文件名采用“应用名-平台-v版本-build构建号-CPU架构”。`uni
 
 当前版本为预发布测试版。包含球队管理、自动排阵、赛季推进、2D 比赛直播、临场换人和战术、比赛进度保存恢复。
 
-构建号12恢复手机端全程竖屏，直播不再强制横屏；重做球场配色（浅色枫木、陶土油漆区、全场木纹、空心中圈）和核心球员标记（双层金圈与金色星章）；统一界面配色与对比度，平板/宽屏正文限宽，阵容入口改为 2×2，主菜单与新游戏选择反馈更新；保留build7的完整存档导出/导入、坏档恢复、交易经济修复与实时直播。等待期、存档格式和比赛引擎未变，可覆盖安装旧版，不要先卸载；新版导出文件不保证可回导旧APK。
+构建号13改为篮球橙主题，新增赛前球队事务（广告签约、球员加练、球迷活动），并修复核心球员金圈未居中；保留build12的全程竖屏、浅色枫木球场、核心金圈与星章、完整存档导出/导入、坏档恢复、交易经济修复和实时直播。等待期、存档格式和比赛引擎未变，可覆盖安装旧版，不要先卸载；新版导出文件不保证可回导旧APK。
 
 当前版本为预发布测试版，原生存档文件选择/分享、独立APK的真机冷启动、后台/强退恢复和长时间运行仍待验收。请不要将测试版作为重要存档的唯一副本。
 
