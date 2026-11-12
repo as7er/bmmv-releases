@@ -5,9 +5,9 @@ BMMV（Basketball Manager Mobile Vibe）的官方 Android 安装包发布仓库�
 ## 下载
 
 - [全部版本与下载](https://github.com/as7er/bmmv-releases/releases)
-- [当前测试版：BMMV Android v1.0.0 build14 universal](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.14)
-- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.14/BMMV-Android-v1.0.0-build14-universal.apk)
-- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.14/SHA256SUMS.txt)
+- [当前测试版：BMMV Android v1.0.0 build15 universal](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.15)
+- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.15/BMMV-Android-v1.0.0-build15-universal.apk)
+- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.15/SHA256SUMS.txt)
 
 无需 GitHub 账号即可下载。Release 附件不依赖 Expo 临时构建链接；只要仓库及附件保留，版本下载地址可继续使用。GitHub 服务可用性和本地网络情况可能影响访问。
 
@@ -26,7 +26,7 @@ APK文件名采用“应用名-平台-v版本-build构建号-CPU架构”。`uni
 
 当前版本为预发布测试版。包含球队管理、自动排阵、赛季推进、2D 比赛直播、临场换人和战术、比赛进度保存恢复。
 
-构建号14新增六套战术预设与最多8个自定义预设、进球/三分/观众/哨声/换人/蜂鸣音效及开关、直播页显式横竖屏切换、赛前“交给助教”战术托管、选秀精英尾与隐藏成长特质、按出场分钟成长、明星长寿、奢侈税与零和分成、负现金禁止签自由球员；保留build13的篮球橙主题、赛前球队事务、竖屏基础布局，以及build7的完整存档导出/导入、坏档恢复、交易经济修复和实时直播。联赛存档格式仍为v7，可覆盖安装旧版，不要先卸载；新版导出文件不保证可回导旧APK。
+构建号15修复直播“横屏观看”按钮并移除 `expo-screen-orientation`，10 名球员名字和位置始终显示，进球/三分改为空心入网 swish；球员页新增 14 项只读细分能力、球探评价、联盟/同位置排名、单场最高和进阶命中率；联盟数据榜新增“球队榜”（得分、篮板、助攻、抢断、盖帽、失误、进攻/防守篮板、投篮/三分/罚球命中率、净胜分）。保留build14的战术预设、比赛音效、显式横竖屏切换、助教托管、选秀与财政修复，以及build7的完整存档导出/导入、坏档恢复、交易经济修复和实时直播。联赛存档格式仍为v7，细分能力不写存档，可覆盖安装旧版，不要先卸载；新版导出文件不保证可回导旧APK。
 
 当前版本为预发布测试版，原生存档文件选择/分享、独立APK的真机冷启动、后台/强退恢复和长时间运行仍待验收。请不要将测试版作为重要存档的唯一副本。
 
