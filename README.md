@@ -5,9 +5,10 @@ BMMV（Basketball Manager Mobile Vibe）的官方 Android 安装包发布仓库�
 ## 下载
 
 - [全部版本与下载](https://github.com/as7er/bmmv-releases/releases)
-- [当前测试版：BMMV Android v1.0.0 build16 universal](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.16)
-- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.16/BMMV-Android-v1.0.0-build16-universal.apk)
-- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.16/SHA256SUMS.txt)
+- [当前测试版：BMMV Android v1.0.0 build17 universal](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.17)
+- [直接下载 APK](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.17/BMMV-Android-v1.0.0-build17-universal.apk)
+- [SHA-256 校验文件](https://github.com/as7er/bmmv-releases/releases/download/v1.0.0-preview.17/SHA256SUMS.txt)
+- [上一版：build16](https://github.com/as7er/bmmv-releases/releases/tag/v1.0.0-preview.16)
 
 无需 GitHub 账号即可下载。Release 附件不依赖 Expo 临时构建链接；只要仓库及附件保留，版本下载地址可继续使用。GitHub 服务可用性和本地网络情况可能影响访问。
 
@@ -17,8 +18,8 @@ APK文件名采用“应用名-平台-v版本-build构建号-CPU架构”。`uni
 
 1. 在 Android 手机浏览器下载 APK。
 2. 打开文件；系统提示时，仅为用于下载的浏览器或文件管理器允许“安装未知应用”。
-3. 安装后直接打开 BMMV，不需要 Expo Go、开发服务器或电脑。
-4. 更新时使用同包名、同签名的官方 APK 覆盖安装；不要先卸载，卸载或清除应用数据会丢失本地存档。
+3. 安装后直接打开 BMMV，不需要 Expo Go、开发服务器或电脑，也不要求手机与电脑同一局域网。
+4. 更新前在旧版“存档管理”中导出备份，再使用同包名、同签名的官方 APK 覆盖安装；不要先卸载，卸载或清除应用数据会丢失本地存档。
 
 独立 APK 与 Expo Go、网页版的存档不共享，不会自动导入旧进度。建议首次安装创建测试联盟，保留原应用的数据。
 
@@ -26,9 +27,11 @@ APK文件名采用“应用名-平台-v版本-build构建号-CPU架构”。`uni
 
 当前版本为预发布测试版。包含球队管理、自动排阵、赛季推进、2D 比赛直播、临场换人和战术、比赛进度保存恢复。
 
-构建号16更换新应用图标“战术板 + 篮球”：深蓝黑背景、沙金战术板与夹子、篮球橙篮球，并同步 Android 自适应/单色图标、iOS 主图标、favicon 和启动图；桌面图标需安装本版才会更新。功能与build15相同：修复直播“横屏观看”按钮并移除 `expo-screen-orientation`，10 名球员名字和位置始终显示，进球/三分改为空心入网 swish；球员页新增 14 项只读细分能力、球探评价、联盟/同位置排名、单场最高和进阶命中率；联盟数据榜新增“球队榜”。保留build14的战术预设、比赛音效、助教托管、选秀与财政修复，以及build7的完整存档导出/导入、坏档恢复、交易经济修复和实时直播。联赛存档格式仍为v7，细分能力不写存档，可覆盖安装旧版，不要先卸载；新版导出文件不保证可回导旧APK。
+构建号 17 增加存档恢复成功提示，导入时拒绝非法奢侈税、收入分成和老板分红数据，兼容旧存档缺少这些字段的情况。经营调整包括增加选秀精英新秀供给、现金为负时禁止续约、名单不足 13 人时允许底薪补员，以及赛季结算后对超过 6 亿的现金储备进行老板分红。同步更新运行依赖。
 
-当前版本为预发布测试版，原生存档文件选择/分享、独立APK的真机冷启动、后台/强退恢复和长时间运行仍待验收。请不要将测试版作为重要存档的唯一副本。
+保留此前版本的战术板篮球图标、横竖屏观看、十名球员标签、比赛音效、14 项细分能力、球员资料和球队数据榜，以及战术预设、助教托管、完整存档导出/导入和坏档恢复。联赛存档格式仍为 v7，可覆盖安装旧版，不要先卸载；新版导出文件不保证可回导旧 APK。
+
+云端构建、APK 完整性检查和 598 项自动化测试通过。原生存档文件选择/分享、独立 APK 的真机冷启动、后台/强退恢复和长时间运行仍待验收。请不要将测试版作为重要存档的唯一副本。
 
 建议检查：断网冷启动 → 开赛 → 保存离开并继续 → 切后台/锁屏 → 强退重开 → 终场保存 → 下一场。突然退出允许重播当前片段，不能整场丢失或重复累计赛果。
 
